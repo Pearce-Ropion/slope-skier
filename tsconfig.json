@@ -21,5 +21,13 @@
       "@test-utils": ["./test-utils"]
     }
   },
-  "include": ["src", "test-utils"]
+  "include": [
+    "src",
+    "test-utils",
+    "postcss.config.cjs",
+    "vite.config.mjs",
+    "vitest.setup.mjs",
+    ".eslintrc.cjs",
+    ".prettierrc.cjs"
+  ]
 }
